@@ -13,6 +13,7 @@
 
 
     <EditText
+        android:id="@+id/uname"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
@@ -23,11 +24,13 @@
         android:text="password"/>
 
     <EditText
+        android:id="@+id/password"
         android:inputType="textPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <Button
+        android:id="@+id/loginbutton"
         android:text="LOGIN"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
