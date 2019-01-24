@@ -44,5 +44,12 @@ EditText ed1,ed2,ed3,ed4,ed5,ed6,ed7;
                 }
             }
         });
+        b2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+             Intent i =new Intent(getApplicationContext(),MainActivity.class);
+                startActivity(i);
+            }
+        });
 
     }}
