@@ -4,9 +4,52 @@
     android:orientation="vertical"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <ImageView
+        android:src="@drawable/plus"
+        android:id="@+id/add"
+    android:layout_margin="15dp"
+    android:layout_gravity="center"
+    android:background="@drawable/roundstyle"
+    android:layout_width="100dp"
+    android:layout_height="100dp" />
+
+    <ImageView
+
+        android:src="@drawable/subpng"
+        android:id="@+id/sub"
+        android:layout_margin="15dp"
+        android:layout_gravity="center"
+        android:background="@drawable/buttonstyle"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <ImageView
+        android:src="@drawable/mul"
+        android:id="@+id/mul"
+        android:layout_margin="15dp"
+        android:layout_gravity="center"
+        android:background="@drawable/buttonstylings"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <ImageView
+        android:src="@drawable/div"
+        android:id="@+id/div"
+        android:layout_margin="15dp"
+        android:layout_gravity="center"
+        android:background="@drawable/registerstyle"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+
     <Button
         android:text="Log OUT"
         android:id="@+id/logoutbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:text="VIEWALL"
+        android:id="@+id/viewall"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 </LinearLayout>

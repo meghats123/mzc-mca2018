@@ -17,7 +17,12 @@
         </activity>
         <activity android:name=".RegisterActivity" />
         <activity android:name=".Calculator" />
-        <activity android:name=".WelcomeActivity"></activity>
+        <activity android:name=".WelcomeActivity" />
+        <activity android:name=".AddActivity" />
+        <activity android:name=".SubActivity" />
+        <activity android:name=".MulActivity" />
+        <activity android:name=".EmptyActivity" />
+        <activity android:name=".DivActivity"></activity>
     </application>
 
 </manifest>

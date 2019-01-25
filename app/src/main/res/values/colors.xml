@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-
+    <color name="loginbutton">#00aabb</color>
+<color name="startcolor">#e9d362 </color>
+    <color name="endcolor">#333333 </color>
+    <color name="backgroundstartcolor">#004168 </color>
+    <color name="backgroundendcolor">#E4E5E6 </color>
+    <color name="registerstartcolor">#FBD786 </color>
+    <color name="registerendcolor">#f64f59 </color>
+    <color name="circleshapestartcolor">#e9d362 </color>
+    <color name="roundstartcolor">#FBD786</color>
+    <color name="roundstartcolor1">#004168</color>
+    <color name="roundstartcolor2">#FBD786</color>
+    <color name="roundstartcolor3">#FBD786</color>
 </resources>
