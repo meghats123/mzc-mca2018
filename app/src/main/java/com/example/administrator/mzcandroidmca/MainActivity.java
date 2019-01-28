@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 EditText ed1,ed2;
-    Button b,b1,b2,b3;
+    Button b,b1,b2,b3,b4;
     String getusername,getpassword,checkusername;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +33,8 @@ SharedPreferences sharedPreferences=getSharedPreferences("login",MODE_PRIVATE);
         b = (Button) findViewById(R.id.loginbutton);
         b2 = (Button) findViewById(R.id.register);
         b1 = (Button) findViewById(R.id.alreadyregistered);
+        b4 = (Button) findViewById(R.id.viewusers);
+
 b3=(Button)findViewById(R.id.calculator);
         b.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -80,7 +82,13 @@ b3.setOnClickListener(new View.OnClickListener() {
                 startActivity(i);
             }
         });
-
+        b4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getApplicationContext(), UserlistActivity.class);
+                startActivity(i);
+            }
+        });
 }}
 
 

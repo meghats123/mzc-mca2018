@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.administrator.mzcandroidmca">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -22,7 +23,8 @@
         <activity android:name=".SubActivity" />
         <activity android:name=".MulActivity" />
         <activity android:name=".EmptyActivity" />
-        <activity android:name=".DivActivity"></activity>
+        <activity android:name=".DivActivity" />
+        <activity android:name=".UserlistActivity"></activity>
     </application>
 
 </manifest>
